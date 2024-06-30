@@ -1,6 +1,3 @@
-from telnetlib import theNULL
-
-
 first_number = input("Enter the first number:")
 first_number = int(first_number)
 print(f'number:{first_number}')
@@ -24,3 +21,5 @@ elif operation == '*':
 elif operation == '/':
     result = first_number / second_number
     print(f"result:{result}")
+else:
+    print('please choose an correct opertaion (+, -, *, /)')
